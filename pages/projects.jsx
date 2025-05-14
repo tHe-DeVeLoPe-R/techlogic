@@ -1,3 +1,4 @@
+import Footer from '@/Components/Footer'
 import Header from '@/Components/Header'
 import Nav from '@/Components/Nav'
 import Project from '@/Components/Project'
@@ -9,6 +10,7 @@ export default function projects() {
         <Nav/>
         <Header/>
         <Project/>
+        <Footer/>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import Contact from '@/Components/Contact'
+import Footer from '@/Components/Footer'
 import Header from '@/Components/Header'
 import Nav from '@/Components/Nav'
 import Why from '@/Components/Why'
@@ -11,6 +12,7 @@ export default function index() {
         <Header/>
         <Why/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }

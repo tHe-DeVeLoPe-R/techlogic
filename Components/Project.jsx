@@ -142,7 +142,7 @@ export default function Project() {
             })
         }
       </div>
-      <small>We have huge collection of projects. Want to <a href="">CHAT</a> with us ? </small>
+      <small>We have a huge collection of projects. Want to <a href="https://wa.me/+923494034106">CHAT</a> with us?</small>
     </div>
     )
 }

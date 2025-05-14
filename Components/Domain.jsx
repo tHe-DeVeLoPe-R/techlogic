@@ -55,6 +55,14 @@ export default function Domain() {
 
 
 ]
+
+const getQuote = (domain_name)=>{
+ const message = 'Hi I want to discuss a project related to '+domain_name;
+ const phoneNumber = '+923494034106';
+ const encodedMessage = encodeURIComponent(message);
+ const whatsapp_url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+ window.open(whatsapp_url, '_blank');
+}
   return (
     <div className = {style.mainDomains}>
         <h1>Our Domains</h1>
@@ -66,7 +74,9 @@ export default function Domain() {
                     <p>{domainItem.desc}</p>
                     <h2>{domainItem.stack}</h2>
                     <strong>{domainItem.note}</strong>
-                    <button>Get Quote</button>
+                    <button onClick={()=>{
+                      getQuote(domainItem.name)
+                    }}>Get Quote</button>
                 </div>
             })
         }

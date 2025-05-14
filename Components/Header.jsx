@@ -16,7 +16,7 @@ export default function Header() {
         <p>
             We architect intelligent systems and provide comprehensive technology solutions across design, documentation, coding, and analysis. Our logical approach ensures clarity, efficiency, and tangible results for your projects.
         </p>
-        <button>Get Quote</button>
+       <a href="https://wa.me/+923494034106"><button>Get Quote</button></a> 
     </div>
   )
 }
